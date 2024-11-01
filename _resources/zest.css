@@ -1,0 +1,41 @@
+.zest-user
+{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-column-gap: 10px;
+    align-items: center;
+    padding-top: 15px;
+    margin-bottom: 30px;
+
+    --zst-figure-size: 46px;
+    --zst-image-size: 42px;
+}
+
+.zest-user figure {
+    padding: 0;
+    margin: 0;
+    border-radius: 50%;
+    width: var(--zst-figure-size);
+    height: var(--zst-figure-size);
+    background-color: white;
+    position: relative;
+    box-shadow: 0 0 8px rgba(0,0,0,.3);
+}
+.zest-user figure img {
+    width: var(--zst-image-size);
+    height: var(--zst-image-size);
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+.zest-user nav {
+
+}
+.zest-user nav a {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
